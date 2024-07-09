@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/pes 2019/sunnyside-agency-landing-page-main/sunnyside-agency-landing-page-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sunny-side-agency"
+	}
+}

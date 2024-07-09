@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Fraunces:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Sunnyside Agency</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/mobile/logo.svg" alt="Logo">
+        </div>
+         <div class="navbar">
+            <a href="#about" id="none">About</a>
+            <a href="#services" id="none">Services</a>
+            <a href="#projects" id="none">Projects</a>
+            <button id="none">Contact</button>
+
+            <!-- <i class="fa-solid fa-bars" id="icon"></i> -->
+        </div> 
+           
+        <div class="hambuger" onclick="toggle()">
+              <span ></span>
+              <span></span>
+              <span></span>
+
+        </div>
+ 
+        <div id="toggle-button">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <button id="contact">Contact</button>
+        </div> 
+        
+    </header>
+
+    <!-- Section 1 -->
+    <section id="section-1">
+        <h1>We are creatives</h1>
+        <p id="arrow"><img src="images/mobile/icon-arrow-down.svg" alt="Arrow Down"></p>
+    </section>
+    <!-- Section 2 -->
+    <section id="section-2">
+        <div class="Transform">
+            <div class="flex-egg">
+                <div id="inner-flex-egg">
+                    <h1>Transform your brand</h1>
+                    <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                    <h4><a href="#">Learn more</a></h4>
+                </div>
+            </div>
+            <div class="egg-img">
+                <img src="./images/mobile/image-transform.jpg" alt="Transform">
+            </div>
+        </div>
+    </section>
+    <!-- Section 3 -->
+    <section id="section-3">
+        <div class="cup-image">
+            <img src="./images/mobile/image-stand-out.jpg" alt="Stand Out">
+        </div>
+        <div class="stand">
+            <div class="stand-text">
+                <h1>Stand out to the right audience</h1>
+                <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+                <h4><a href="#">Learn more</a></h4>
+            </div>
+        </div>
+    </section>
+    <!-- Section 4 -->
+    <section id="section-4">
+        <div class="cherry" id="size">
+            <div class="graphic">
+                <h3>Graphic design</h3>
+                <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </div>
+        </div>
+        <div class="orange" id="size">
+            <div class="photography">
+                <h3>Photography</h3>
+                <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Section 5 -->
+    <section id="section-5">
+        <div class="client">
+            <h3>Client testimonials</h3>
+        </div>
+        <div class="container">
+            <div class="trust">
+                <div class="trus1">
+                    <img src="./images/mobile/image-emily.jpg" alt="Emily">
+                </div>
+                <p class="our-trust">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                <div class="am-hungry">
+                    <h5>Emily R.</h5>
+                    <p>Marketing Director</p>
+                </div>
+            </div>
+            <div class="trust">
+                <div class="trus1">
+                    <img src="./images/mobile/image-thomas.jpg" alt="Thomas">
+                </div>
+                <p class="our-trust">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                <div class="am-hungry">
+                    <h5>Thomas S.</h5>
+                    <p>Chief Operating Officer</p>
+                </div>
+            </div>
+            <div class="trust">
+                <div class="trus1">
+                    <img src="./images/mobile/image-jennie.jpg" alt="Jennie">
+                </div>
+                <p class="our-trust">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                <div class="am-hungry">
+                    <h5>Jennie F.</h5>
+                    <p>Business Owner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 6 -->
+    <section id="section-6">
+        <img src="images/mobile/image-gallery-milkbottles.jpg" alt="Milkbottles">
+        <img src="images/mobile/image-gallery-orange.jpg" alt="Orange">
+        <img src="images/mobile/image-gallery-cone.jpg" alt="Cone">
+        <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="Sugar Cubes">
+    </section>
+    <!-- Footer -->
+    <footer>
+        <h2>Sunnyside</h2>
+        <div class="footernav">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+        </div>
+        <div class="icons">
+            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z" fill="#2C7566" fill-rule="nonzero"/></svg>
+            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M10 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.975 1.409 4.099 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.057 4.042-.124 2.687-1.387 3.975-4.1 4.099-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-2.718-.124-3.977-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058zM10 0C7.284 0 6.944.012 5.877.06 2.246.227.227 2.242.061 5.877.01 6.944 0 7.284 0 10s.012 3.057.06 4.123c.167 3.632 2.182 5.65 5.817 5.817 1.067.048 1.407.06 4.123.06s3.057-.012 4.123-.06c3.633-.167 5.65-2.182 5.817-5.817.048-1.067.06-1.407.06-4.123s-.012-3.057-.06-4.123C19.773 2.246 17.758.227 14.123.061 13.056.01 12.716 0 10 0zm0 4.85c-2.842 0-5.15 2.308-5.15 5.15 0 2.842 2.308 5.15 5.15 5.15 2.842 0 5.15-2.308 5.15-5.15 0-2.842-2.308-5.15-5.15-5.15zm0 8.487a3.337 3.337 0 1 1 0-6.674 3.337 3.337 0 0 1 0 6.674zm6.57-8.631a.784.784 0 1 1-1.567 0 .784.784 0 0 1 1.567 0z" fill="#2C7566" fill-rule="nonzero"/></svg>
+            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20 3.538a8.185 8.185 0 0 1-2.357.646 4.113 4.113 0 0 0 1.804-2.27 8.194 8.194 0 0 1-2.605.996A4.102 4.102 0 0 0 9.85 6.875a11.644 11.644 0 0 1-8.457-4.287 4.1 4.1 0 0 0 1.27 5.473A4.077 4.077 0 0 1 .8 7.68v.052a4.104 4.104 0 0 0 3.292 4.022 4.1 4.1 0 0 1-1.853.07 4.105 4.105 0 0 0 3.832 2.85A8.233 8.233 0 0 1 0 17.53a11.616 11.616 0 0 0 6.29 1.844c7.547 0 11.675-6.253 11.675-11.675 0-.178-.004-.355-.012-.531A8.344 8.344 0 0 0 20 3.539z" fill="#2C7566" fill-rule="nonzero"/></svg>
+            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20 0v20H0V0h20zm-4.468 6.424h-1.11c-.875 0-1.042.416-1.042 1.025v1.344h2.08l-.271 2.097h-1.809v5.384H12.1v-5.384H10.4v-2.097h1.699v-1.54C12.1 6.504 13.066 5.5 14.398 5.5c.698 0 1.3.052 1.473.075v1.849z" fill="#2C7566" fill-rule="nonzero"/></svg>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
